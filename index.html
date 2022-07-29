@@ -1,74 +1,67 @@
 <!DOCTYPE html>
-
-<html lang="zh-CN">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>擦--好名字都被取了</title>
-
     <style>
-      body {
-        margin: 30px;
+      video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -9999;
       }
-
-      .tx {
+      .flex {
+        display: flex;
+      }
+      .a {
+        width: 100px;
+        height: 450px;
+        background-color: rgba(238, 229, 229, 0.884);
+        border-radius: 9999px;
+        margin: auto;
+        color: rgba(0, 0, 0, 0.658);
         text-align: center;
-
-        background-color: #eee;
+        font-size: 60px;
+        text-decoration: none;
       }
-
-      .txh {
-        width: 150px;
-
-        height: 130px;
+      .mg {
+        margin: auto;
+        width: 760px;
+        height: 90vh;
       }
-      .hhh {
+      .logo {
+        width: 60px;
+        height: 60px;
+        border-radius: 50vh;
+      }
+      .db {
+        height: 8.5vh;
+        background-color: rgba(238, 238, 238, 0.596);
         text-align: center;
-
-        background-color: orange;
-        border-radius: 10px;
-      }
-      .b {
-        font-size: 20px;
       }
     </style>
   </head>
-
-  <body>
-    <div class="tx">
-      <img
-        src="https://s1.328888.xyz/2022/07/24/DERHw.png"
-        alt="DERHw.png"
-        class="txh"
-      />
-    </div>
-
-    <div class="hhh">
-      <h1>我的个人介绍</h1>
-
-      <p style="font-size: 25px">404 no found... <br />不会真的有人会信吧</p>
-    </div>
-
-    <div class="hhh">
-      <h1 style="color: rgb(199, 0, 0)">今日热点</h1>
-
-      <h2 style="text-align: left">论——1+1到底等于几？某砖家回应令人震惊！</h2>
-
-      <b class="b">该专家对1+1的看法如下</b>
-
-      <p class="b">
-        1+1，一个值得引人深思的问题，这一题我竟然用了一个月才将其证明！证明过程为：首先我们要/*%￥#@&*&*……%￥#……##@@#￥#%￥%……#*最后得出1+1=3！
-      </p>
-
-      <b class="b"
-        >网友神回复：真不愧是专家，连1+1=3这个真理都能算出来[手动滑稽]</b
+  <body style="margin: 0; overflow-y: hidden">
+    <!--背景视频-->
+    <video src="video.mp4" autoplay muted loop></video>
+    <!--主体-->
+    <div class="flex mg">
+      <a href="mz.html" class="a"><img src="logo.png" class="logo" /></a>
+      <a href="js.html" class="a"
+        ><img src="logo.png" class="logo" /><br />个<br />人<br />介<br />绍</a
       >
+      <a href="mz.html" class="a"><img src="logo.png" class="logo" /></a>
     </div>
-
-    <div style="font-size: 40px; color: red; margin: 20px" class="hhh">
-      那么——1+1到底等于几呢？
+    <!---->
+    <div class="db">
+      <h3>网站所有者：擦--好名字都被取了</h3>
+      <a href="https://www.midorg.com/"><h3>感谢:康文昌</h3></a>
     </div>
   </body>
 </html>
